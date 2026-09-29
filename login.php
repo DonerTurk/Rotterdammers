@@ -14,5 +14,5 @@ include 'header.php'; ?>
 <?php if($error): ?><p class="error"><?= $error ?></p><?php endif; ?>
 <label>Gebruikersnaam</label><input name="username" required>
 <label>Wachtwoord</label><input type="password" name="password" required>
-<button>Inloggen</button><p>Nog geen account? <a href="register.php">Registreren</a></p></form></section>
+<button>Inloggen</button><p>Nog geen account! <a href="register.php">Registreren</a></p></form></section>
 <?php include 'footer.php'; ?>
